@@ -1,13 +1,15 @@
-package com.example.SpringForJenkins;
+//package com.example.SpringForJenkins;
+//
+//import org.springframework.boot.builder.SpringApplicationBuilder;
+//import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+//
 
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-
-public class ServletInitializer extends SpringBootServletInitializer {
-
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SpringForJenkinsApplication.class);
-	}
-
-}
+//commenting this as SpringBootServletInitializer already registered w/ application class
+//public class ServletInitializer extends SpringBootServletInitializer {
+//
+//    @Override
+//    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+//        return application.sources(SpringForJenkinsApplication.class);
+//    }
+//
+//}
